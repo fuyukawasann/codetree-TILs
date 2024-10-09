@@ -1,4 +1,4 @@
-package S2024.상반기.오전.P001;
+// package S2024.상반기.오전.P001;
 
 import java.io.*;
 import java.util.*;
