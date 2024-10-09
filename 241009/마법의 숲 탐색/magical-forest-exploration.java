@@ -97,7 +97,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-    	System.setIn(new FileInputStream("src/S2024/상반기/오전/P001/input.txt"));
+    	// System.setIn(new FileInputStream("src/S2024/상반기/오전/P001/input.txt"));
     	
         Scanner scanner = new Scanner(System.in);
         R = scanner.nextInt();
