@@ -165,6 +165,7 @@ public class Main {
 					// 판매 불가하면 다음으로 건너뜀
 					if(dist[list[idSave.get(i)].dest] == INF || dist[list[idSave.get(i)].dest] > list[idSave.get(i)].revenue)
 					{
+						newIsAvailable[list[idSave.get(i)].id] = true;
 						continue;
 					}
 					
